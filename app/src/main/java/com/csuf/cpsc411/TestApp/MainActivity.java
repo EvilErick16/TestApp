@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        /*      THIS CODE ISN'T USED BECAUSE IT'S REPLACED BY
+                THE single_widget_layout file
 
         // 1. Create a TextView object
         TextView v = new TextView(this);
@@ -28,14 +29,20 @@ public class MainActivity extends AppCompatActivity {
         v.setPadding(50, 50, 50, 350);
         v.setTextSize(36);
         v.setTypeface(null, Typeface.BOLD);
+        v.setId(R.id.test_obj_id);
 
         // 3. Create Layout object
         ViewGroup.LayoutParams lp = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.MATCH_PARENT);
         v.setLayoutParams(lp);
 
-        // Set the content view
-        //setContentView(v);
+        // 4. Set the content view
+        setContentView(v);
+        */
         setContentView(R.layout.single_widget_layout);
+
+        TextView v = findViewById(R.id.test_obj_id);
+
+        v.setText("The test string has been updated.");
     }
 }
