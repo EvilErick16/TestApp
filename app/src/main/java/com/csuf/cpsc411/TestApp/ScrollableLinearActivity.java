@@ -16,7 +16,7 @@ public class ScrollableLinearActivity extends Activity {
         // Call parent method
         super.onCreate(savedInstanceState);
 
-        /*
+
 
         // Create Scroll view object
         ScrollView sv = new ScrollView(this);
@@ -41,7 +41,8 @@ public class ScrollableLinearActivity extends Activity {
         // Display instance of scroll view
         setContentView(sv);
 
-         */
-        setContentView(R.layout.simple_linear_rf);
+
+        // Display layout from resource file
+        //setContentView(R.layout.simple_linear_rf);
     }
 }

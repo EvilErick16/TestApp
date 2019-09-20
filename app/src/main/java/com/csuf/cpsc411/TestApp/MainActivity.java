@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         // 4. Set the content view
         setContentView(v);
         */
+
         setContentView(R.layout.single_widget_layout);
 
         TextView v = findViewById(R.id.test_obj_id);
