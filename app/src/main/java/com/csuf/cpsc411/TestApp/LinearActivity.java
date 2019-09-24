@@ -34,7 +34,7 @@ public class LinearActivity extends Activity {
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         lp.setMargins(0,30,0,0);
-        lp.weight = 1;
+        //lp.weight = 1;
 
         // Create first widget
         TextView tv = new TextView(this);
@@ -48,7 +48,7 @@ public class LinearActivity extends Activity {
                 ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         lp1.setMargins(0,30,0,0);
         //lp1.gravity = Gravity.CENTER;
-        lp1.weight = 1;
+        //lp1.weight = 1;
 
         // Create second widget
         TextView tv1 = new TextView(this);
@@ -62,7 +62,7 @@ public class LinearActivity extends Activity {
                 ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.MATCH_PARENT);
         lp2.setMargins(0,30,0,30);
         //lp2.gravity = Gravity.BOTTOM;
-        lp2.weight = 3;
+        //lp2.weight = 3;
 
         // make third widget
         TextView tv2 = new TextView(this);
