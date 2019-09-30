@@ -24,8 +24,8 @@ public class Grid0919Activity extends Activity {
         //root.setOrientation(GridLayout.VERTICAL);
 
         // Call subroutine to add widgets to root
-        createWidgets(root);
-        //createWidgetAtCell(root, "String 0", 0, 1);
+        //createWidgets(root);
+        createWidgetAtCell(root, "String 0", 0, 1);
         //createWidgetAtCell(root, "String 1", 2, 2);
         //createWidgetAtCell(root, "String 2", 1, 2);
 
